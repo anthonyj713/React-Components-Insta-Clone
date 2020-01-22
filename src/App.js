@@ -17,6 +17,7 @@ const App = () => {
   // set up state for the dummy data and pass to your PostsPage
   return (
     <div className="App">
+      <PostsPage posts = {data}/>
       {/* Add components here  and pass props where appropriate */}
     </div>
   );
